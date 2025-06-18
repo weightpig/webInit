@@ -1,0 +1,8 @@
+/* 确保已经引入 Tailwind CSS */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.modal-body-padding .ant-modal-body {
+  @apply py-5; 
+}
